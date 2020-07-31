@@ -7,7 +7,10 @@
 			font-family: "AvenirNextW10-Medium"; 
 			src: url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.eot"); 
 			src: url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.woff") format("woff"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.svg#AvenirNextW10-Medium") format("svg"); }
-		@font-face {font-family: "AvenirNextW10-Bold"; src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot"); src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff") format("woff"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.svg#AvenirNextW10-Bold") format("svg"); }
+		@font-face {
+			font-family: "AvenirNextW10-Bold"; 
+			src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot"); 
+			src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff") format("woff"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.svg#AvenirNextW10-Bold") format("svg"); }
 		* { font-family: AvenirNextW10-Medium; letter-spacing: -0,1em; }
 		.colors { padding: 30px; width: 40%; float: left; min-height: 540px; }
 		.colorstest { padding: 30px; width: 100%; clear: left;}
@@ -21,7 +24,7 @@
 		.blue_01 { background: #1E7FC6; }
 		.blue_02 { background: #4DA4E4; }
 		.orange_01 { background: #F3845D; }
-		.orange_02 { background: #E55859; }
+		.orange_02 { background: #FF624D; }
 		.gradient_button { background-image: linear-gradient(to bottom, #F3845D, #E55859); } 
 		.violet { background: #9448C3; } 
 		.blue_03 { background: #28B1EC; } 
@@ -36,12 +39,22 @@
 		.txt_grey_03 { color: #69777F; } 
 		.txt_grey_02 { color: #CBDAE2; }
 		.txt_grey_01 { color: #F4F8FB; }
+		.txt_orange_02 { color: #C9500D; }
 		H1 { font-size: 1.7em; }
 		H2 { font-size: 1.4em; }
 		H3 { font-size: 1.2em; border-bottom: 1px solid #CBDAE2; line-height: 2.4em;}
 		H4 { font-size: 1em; font-family: AvenirNextW10-Bold; }
 		p { font-size: 1em; line-height: 1.5em; }
-		span { font-size: 12px; line-height: 1.5em; }
+		span { font-size: 0.85em; line-height: 1.5em; margin-right: 10px;}
+		.span_M { font-size: 1em; line-height: 1.5em;}
+		.button_G , .button_M , .button_P { margin: 15px 0px;box-shadow: 0px 4px 12px rgba(229,88,89,0.4); border: none; cursor: pointer; font-size: 0.9em; border-radius: 3px;}
+		.button_G { padding: 15px 35px; }
+		.button_M { padding: 10px 25px; border-radius: 3px; }
+		.button_P { padding: 5px 8px; border-radius: 3px; }
+		form label { font-size: 0.9em; color: #203D4C; width: 100%;}
+		form input { padding: 9px 10px; font-size: 0.9em; color: #203D4C; border-radius: 3px; border-style: none; border: 1px solid #69777F;}
+		::-webkit-input-placeholder  { font-size: 0.9em; color: #69777F; }
+		input:-moz-placeholder { font-size: 0.9em; color: #69777F; }
 	</style>
 </head>
 <body>
@@ -116,7 +129,7 @@
 		<h4 class="bg_grey_03_ txt_white">H4 - Fonts, Sizes and Colors</h4>
 		<p class="bg_grey_03_ txt_white">Fonts, sizes and colors must be consistent through the application. It's at the core of the branding building and the quality of a User Experience.</p>
 		<span class="bg_grey_03_ txt_white">Fonts, sizes and colors must be consistent through the application.</span></br>
-		<span class="bg_white_ txt_grey_04">Fonts, sizes and colors must be consistent through the application.</span></br>
+		<span class="bg_grey_03 txt_grey_04">Fonts, sizes and colors must be consistent through the application.</span></br>
 		<span class="bg_grey_03_ txt_grey_01">Fonts, sizes and colors must be consistent through the application.</span></br>
 		<span class="bg_grey_03_ txt_grey_02">Fonts, sizes and colors must be consistent through the application.</span>
 	</div>
@@ -274,8 +287,30 @@
 		<p class="div_width100 txt_grey_04">Fonts, sizes and colors must be consistent through the application. It's at the core of the branding building and the quality of a User Experience.</p>
 		<p class="div_width100 txt_blue_01">Fonts, sizes and colors must be consistent through the application. It's at the core of the branding building and the quality of a User Experience.</p>
 		<p class="div_width100 txt_grey_03">Fonts, sizes and colors must be consistent through the application. It's at the core of the branding building and the quality of a User Experience.</p>
+		<p class="div_width100 txt_orange_02">Fonts, sizes and colors must be consistent through the application. It's at the core of the branding building and the quality of a User Experience.</p>
 		<span class="div_width100 txt_grey_03">Fonts, sizes and colors must be consistent through the application.</span> </br>
-		<span class="div_width100 txt_grey_02">Fonts, sizes and colors must be consistent through the application.</span>
+		<button class="button_G gradient_button txt_white">New Campaign</button></br>
+		<button class="button_M gradient_button txt_white">Save & Next</button></br>
+		<button class="button_P gradient_button txt_white">edit</button></br>
+		<button class="button_G orange_02 txt_white">New Campaign</button></br>
+		<button class="button_M orange_02 txt_white">Save & Next</button></br>
+		<button class="button_P orange_02 txt_white">edit</button></br>
 	</div>
+	<div class="colorstest blue_01">
+		<button class="button_G gradient_button txt_white">New Campaign</button></br>
+		<button class="button_M gradient_button txt_white">Save & Next</button></br>
+		<button class="button_P gradient_button txt_white">edit</button></br>
+		<button class="button_G orange_02 txt_white">New Campaign</button></br>
+		<button class="button_M orange_02 txt_white">Save & Next</button></br>
+		<button class="button_P orange_02 txt_white">edit</button></br>
+	</div>
+	<div class="colorstest white">
+		<form>
+			<label name="text">Input text</label>
+			<input type="text" name="text" placeholder="text here" />
+			<button class="button_M orange_02 txt_white">Save & Next</button></br>
+		</form>
+		<span class="span_M txt_grey_04">Text beside a button</span>
+		<button class="button_P orange_02 txt_white">Edit</button></br>
 </body>
 </html>
