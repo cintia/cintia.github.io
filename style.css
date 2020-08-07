@@ -1,0 +1,83 @@
+@font-face { 
+			font-family: "AvenirNextW10-Medium"; 
+			src: url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.eot"); 
+			src: url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.woff") format("woff"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/23a52005216dca8d403521d06834f924.svg#AvenirNextW10-Medium") format("svg"); }
+		@font-face {
+			font-family: "AvenirNextW10-Bold"; 
+			src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot"); 
+			src: url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff") format("woff"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.svg#AvenirNextW10-Bold") format("svg"); }
+		* { font-family: AvenirNextW10-Medium; font-size: 16px; line-height: 24px; letter-spacing: -0,1em; }
+		body.grid { background-image: url("8_grid.png"); font-size: 1em;
+  line-height: margin: 0 auto; max-width: 1024; }
+		header { background: #CBDAE2; }
+		header ul { list-style-type: none; }
+		header ul li { display: inline-block; margin: 1em 1.5em 1em 0;}
+		H1 { 	font-size: 1.75em;
+  				line-height: 1.71428571em;
+  				margin-top: 0.85714286em;
+  				margin-bottom: 1.71428572em;
+		}
+		H2 { 	font-size: 1.4375em;
+  				line-height: 1.04347826em;
+ 				margin-top: 1.04347826em;
+  				margin-bottom: 1.04347826em;
+  		}
+		H3 {  	font-size: 1.1875em;
+  				line-height: 1.26315789em;
+  				margin-top: 1.26315789em;
+  				margin-bottom: 1.26315789em;
+		}
+		H4 { 	font-size: 1em;
+  				line-height: 1.5em;
+  				margin-top: 1.5em;
+  				margin-bottom: 0em; 
+  				font-family: AvenirNextW10-Bold;
+  		}
+		p, ul, ol, pre, table, blockquote {
+  			margin-top: 0em;
+ 			 margin-bottom: 1.5em;
+		}
+		ul ul, ol ol, ul ol, ol ul {
+  			margin-top: 0em;
+  			margin-bottom: 0em;
+		}
+		span { font-size: 0.8em; line-height: 1.5em; margin-right: 10px;}
+		form label { font-size: 0.9em; color: #203D4C; display: block; margin-bottom: -10px;}
+		form input { padding: 9px 10px; font-size: 0.9em; color: #203D4C; border-radius: 3px; border-style: none; border: 1px solid #69777F;}
+		::-webkit-input-placeholder  { font-size: 0.9em; color: #69777F; }
+		input:-moz-placeholder { font-size: 0.9em; color: #69777F; }
+		hr, .hr { border: 1px solid; margin: -1px 0;}
+		.span_M { font-size: 1em; line-height: 1.5em;}
+		.colors { padding: 2em; width: 38%; float: left; min-height: 32em; }
+		.colorstest { padding: 2em; width: 80%; clear: left;}
+		.titles { width: 100%; display: block; }
+		.tag { background: #203D4C; padding: 4px; color: #ffffff; border-radius: 3px; }
+		.white { background: #ffffff; }
+		.grey_01 { background: #F4F8FB; }
+		.grey_02 { background: #CBDAE2; }
+		.grey_03 { background: #69777F; }
+		.red_01 { background: #E93C3C; }
+		.blue_01 { background: #1E7FC6; }
+		.blue_02 { background: #4DA4E4; }
+		.orange_01 { background: #F3845D; }
+		.orange_02 { background: #FF624D; }
+		.orange_03 { background: #C9500D; }
+		.gradient_button { background-image: linear-gradient(to bottom, #F3845D, #E55859); } 
+		.violet { background: #9448C3; } 
+		.blue_03 { background: #28B1EC; } 
+		.green { background: #2AAA28; }
+		.yellow { background: #DDBF24; }
+		.orange_03 { background: #E7862C; }
+		.brown { background: #715B47;  }
+		.red_02 { background: #E54421; }
+		.txt_grey_04 { color: #203D4C; }
+		.txt_white { color: #ffffff; }
+		.txt_blue_01 { color: #1E7FC6; }
+		.txt_grey_03 { color: #69777F; } 
+		.txt_grey_02 { color: #CBDAE2; }
+		.txt_grey_01 { color: #F4F8FB; }
+		.txt_orange_02 { color: #C9500D; }
+		.button_G , .button_M , .button_P { margin: 15px 0px;box-shadow: 0px 4px 12px rgba(229,88,89,0.4); border: none; cursor: pointer; font-size: 0.9em; border-radius: 3px;}
+		.button_G { padding: 15px 35px; }
+		.button_M { padding: 10px 25px; border-radius: 3px; }
+		.button_P { padding: 5px 8px; border-radius: 3px; }
