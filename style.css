@@ -41,9 +41,9 @@
   			margin-top: 0em;
   			margin-bottom: 0em;
 		}
-		span { font-size: 0.8em; line-height: 1.5em; margin-right: 10px;}
+		span { font-size: 0.8em; line-height: 1.5em; margin-right: 0.5em;}
 		form label { font-size: 0.9em; color: #203D4C; display: block; margin-bottom: -10px;}
-		form input { padding: 9px 10px; font-size: 0.9em; color: #203D4C; border-radius: 3px; border-style: none; border: 1px solid #69777F;}
+		form input { padding: 0.35em 0.5em; font-size: 0.9em; color: #203D4C; border-radius: 3px; border-style: none; border: 1px solid #69777F;}
 		::-webkit-input-placeholder  { font-size: 0.9em; color: #69777F; }
 		input:-moz-placeholder { font-size: 0.9em; color: #69777F; }
 		hr, .hr { border: 1px solid; margin: -1px 0;}
@@ -61,7 +61,7 @@
 		.blue_02 { background: #4DA4E4; }
 		.orange_01 { background: #F3845D; }
 		.orange_02 { background: #FF624D; }
-		.orange_03 { background: #C9500D; }
+		.orange_03 { background: #F35B22; }
 		.gradient_button { background-image: linear-gradient(to bottom, #F3845D, #E55859); } 
 		.violet { background: #9448C3; } 
 		.blue_03 { background: #28B1EC; } 
@@ -77,7 +77,7 @@
 		.txt_grey_02 { color: #CBDAE2; }
 		.txt_grey_01 { color: #F4F8FB; }
 		.txt_orange_02 { color: #C9500D; }
-		.button_G , .button_M , .button_P { margin: 15px 0px;box-shadow: 0px 4px 12px rgba(229,88,89,0.4); border: none; cursor: pointer; font-size: 0.9em; border-radius: 3px;}
-		.button_G { padding: 15px 35px; }
-		.button_M { padding: 10px 25px; border-radius: 3px; }
-		.button_P { padding: 5px 8px; border-radius: 3px; }
+		.button_G , .button_M , .button_P { margin: 1.2em 0; 0px; box-shadow: 0px 4px 12px rgba(229,88,89,0.4); border: none; cursor: pointer; font-size: 0.9em; border-radius: 3px;}
+		.button_G { padding: 0.8em 2em;}
+		.button_M { padding: 0.4em 2em; border-radius: 3px; }
+		.button_P { padding: 0.2em 0.5em; border-radius: 3px; }
